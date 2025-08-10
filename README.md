@@ -10,3 +10,9 @@ Most of the circuit is built with through-hole components for ease of assembly, 
 A series of resistors and filtering capacitors ensure noise immunity and stable operation even in fluctuating lighting or high-EMI environments. Bulk decoupling capacitors stabilize the 6 V nominal supply for reliable performance.
 
 Unlike microcontroller-based solutions, this analog approach offers instant startup, minimal standby current, and long-term reliability without software maintenance. Potential applications include indoor lighting control, battery-powered motion lamps, and outdoor security lights with dusk-to-dawn control.
+
+# Assembly & Modification
+All necessary PCB design files, schematics, and a complete Bill of Materials (BOM) are included. Users can order parts directly from the BOM and have the PCB fabricated using the provided Gerber files. The prototype was entirely hand-soldered, using a mix of wire solder for through-hole components and solder paste for select SMD parts in the PIR section. The board includes outputs for two LEDs, allowing for multiple lighting configurations. Since all PCB design files are provided, users are free to modify layouts, adjust footprints, or expand the design for their own applications.
+
+# Enclosure & Use Case
+An enclosure design is included, sized to house the PCB and powered by four AAA batteries. In the reference build, this enclosure was used for an indoor novelty night light, shaped like a cat ornament, where the LEDs served as the cat’s eyes
