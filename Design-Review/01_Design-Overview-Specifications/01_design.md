@@ -15,7 +15,7 @@ This board implements an **energy-efficient night light** with:
 
 ## System Block Diagram
 
-![System Block Diagram](Circuit-System-Block_Diagram.png)
+![System Block Diagram](../01_Design-Overview-Specifications/Circuit-System-Block_Diagram.png)
 
 
 ---
