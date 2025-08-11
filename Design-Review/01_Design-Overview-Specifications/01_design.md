@@ -143,24 +143,6 @@ The 555 output (3.3 V logic) enables the **LED driver** path that resides on the
 
 ---
 
-## Parts Highlights
-- **Op-Amp:** TI **TLV8544** (nanopower, R2R, 3.3 V).  
-- **Timer:** ADI/Maxim **ICM7555** (CMOS 555, low-power) @ 3.3 V.  
-- **Logic:** TI **SN74LVC1G00** (3.3 V NAND) or NOR equivalent.  
-- **LDR:** **PDV-P8103**.  
-- **PIR:** **ZRE200GE** / **IRA-S210ST01**.  
-- **LDO:** 3.3 V low-IQ regulator.
-
----
-
-## Why This Approach
-- **Nanopower AFE** for long battery life.  
-- **Split rails:** analog/logic at 3.3 V for low noise; LEDs at 6 V for brightness.  
-- **CMOS 555 @ 3.3 V:** simple, quiet, and predictable timing without firmware.  
-- **Window comparator** robustly rejects drift and non-motion IR changes.
-
----
-
 **Related files:**  
 - [Electrical Design](../../Electrical-Design/) — Schematic, BOM.  
 - [Mechanical Design](../../Mechanical-Design/) — Enclosure, diffuser.
