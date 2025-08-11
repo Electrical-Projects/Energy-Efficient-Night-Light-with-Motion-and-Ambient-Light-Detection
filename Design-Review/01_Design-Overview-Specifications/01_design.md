@@ -15,21 +15,7 @@ This board implements an **energy-efficient night light** with:
 
 ## System Block Diagram
 
-4×AAA (≈6 V)
-│
-├── 6 V rail ──────> LED driver (2× headers)
-│ (series resistors / optional transistor)
-│
-└── 3.3 V LDO ─────> TLV8544 nanopower quad op-amp:
-
-A: PIR AC preamp (HP+LP)
-B: PIR gain + band-limit
-C/D: Window comparator → logic → trigger
-
-↑
-LDR + pot (ambient-light threshold gating)
-│
-└──> ICM7555 (CMOS 555) monostable at 3.3 V → LED driver enable
+![System Block Diagram](../01_Design-Overview-Specifications/Circuit-System-Block_Diagram.png)
 
 
 ---
