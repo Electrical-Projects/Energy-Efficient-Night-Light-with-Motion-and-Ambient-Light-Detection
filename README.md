@@ -16,3 +16,6 @@ All necessary PCB design files, schematics, and a complete Bill of Materials (BO
 
 # Enclosure & Use Case
 An enclosure design is included, sized to house the PCB and powered by four AAA batteries. In the reference build, this enclosure was used for an indoor novelty night light, shaped like a cat ornament, where the LEDs served as the cat’s eyes
+
+# System Block Diagram
+![System Block Diagram](Circuit-System-Block_Diagram.png)
