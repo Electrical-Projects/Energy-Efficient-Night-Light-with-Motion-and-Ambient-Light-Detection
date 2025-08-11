@@ -10,7 +10,7 @@ and modify the provided PCB and enclosure files.
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
 1. [Design Overview & Specifications](01_design.md)  
 2. [Build Process](02_build.md)  
@@ -20,7 +20,7 @@ and modify the provided PCB and enclosure files.
 
 ---
 
-## 🔍 How to Navigate
+## How to Navigate
 
 Each section is self-contained and can be read independently, but following them in  
 order will give the most complete understanding of the project. The **Design Overview**  
