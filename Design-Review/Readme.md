@@ -12,7 +12,7 @@ and modify the provided PCB and enclosure files.
 
 ## Table of Contents
 
-1. [main](Design-Review/Design_Overview_&_Specifications/01_design.md)
+1. [Design Overview & Specifications](Design-Review/01_design.md)
 
 ---
 
