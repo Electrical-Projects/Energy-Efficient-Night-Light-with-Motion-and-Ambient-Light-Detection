@@ -12,8 +12,7 @@ and modify the provided PCB and enclosure files.
 
 ## Table of Contents
 
-1. [Design Overview & Specifications](01_design.md)  
-2. [Build Process](02_build.md)  
+1. [Design Overview & Specifications](Design-Review/Design%20Overview%20%26%20Specifications/01_design.md)
 3. [Testing & Results](03_testing.md)  
 4. [Design Reasoning](04_reasoning.md)  
 5. [Use Cases & Applications](05_use_cases.md)  
