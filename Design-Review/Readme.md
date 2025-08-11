@@ -29,7 +29,7 @@ how the PIR and light-sensitivity controls interface with the delay circuitry.
 
 ---
 
-## 🗂 Related Resources
+## Related Resources
 
 - [Electrical Design Files](../electrical_design)  
 - [Mechanical Design Files](../mechanical_design)  
