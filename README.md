@@ -1,4 +1,6 @@
 ## Energy-Efficient Night-Light with Motion and Ambient-Light Detection
+![System Block Diagram](Completed_Project.png)
+
 # Description
 A simple and affordable motion-activated LED circuit designed for environments where activation should depend on both motion and ambient light levels. The circuit uses a PIR motion sensor and a light-dependent resistor (LDR) to allow users to define the lighting conditions under which motion will trigger the LED. Two onboard potentiometers independently adjust: (1) the environmental light threshold (from full daylight to complete darkness) and (2) the LED on-time delay (0 – 72 seconds). The design is entirely analog, requiring no microcontroller, programming, or complex setup, making it easy to replicate and modify. The circuit is open source under GNU GPL 3.0 and may be freely used, modified, and shared.
 
@@ -17,5 +19,5 @@ All necessary PCB design files, schematics, and a complete Bill of Materials (BO
 # Enclosure & Use Case
 An enclosure design is included, sized to house the PCB and powered by four AAA batteries. In the reference build, this enclosure was used for an indoor novelty night light, shaped like a cat ornament, where the LEDs served as the cat’s eyes
 
-# System Block Diagram
-![System Block Diagram](Completed_Project.png)
+
+
