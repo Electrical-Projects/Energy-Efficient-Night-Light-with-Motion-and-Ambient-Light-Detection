@@ -84,8 +84,7 @@ We use **TLV8544** — a **nanopower**, rail-to-rail quad op-amp — for the PIR
 
 **Why nanopower?** TLV8544’s nA–µA bias keeps standby current tiny, extending AAA life while providing enough bandwidth for human motion.
 
-![System Block Diagram](../01_Design-Overview-Specifications/Circuit-System-Block_Diagram.png)
-
+![System Block Diagram](../Design-Overview-Specifications/Two Types of 3-Stage PIR Signal Processing.png)
 ---
 
 ## Ambient Light Gating (3.3 V)
