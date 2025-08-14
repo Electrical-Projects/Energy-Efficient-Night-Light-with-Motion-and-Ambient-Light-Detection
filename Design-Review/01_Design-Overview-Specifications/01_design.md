@@ -82,7 +82,15 @@ We use **TLV8544** — a **nanopower**, rail-to-rail quad op-amp — for the PIR
   - **Lower:** ≈ **0.16·Vcc** ≈ **0.53 V**  
 - Outputs feed a small logic gate (NAND/NOR) at **3.3 V** logic level to trigger the 555.
 
-**Why nanopower?** TLV8544’s nA–µA bias keeps standby current tiny, extending AAA life while providing enough bandwidth for human motion. The following circuit diagrams represent two almost indentical signal processing paths where the top diagram is very similar to the processing unit developed in this project whereas the bottom circuit diagram is for the special case where the comparator OP-AMPs are desired to be fast and  "single-ended" or "just pull" output, which can only source current and relies on an external pull-down resistor to handle current sinking.
+**Why nanopower?** The TLV8544’s ultra-low input bias current (nanoamp to microamp range) minimises standby current draw, extending AAA battery life while maintaining sufficient bandwidth for human motion detection.
+
+The following circuit diagrams illustrate two almost identical signal-processing paths:
+
+1. Top diagram – closely matches the signal processing path implemented in this project.
+
+2. Bottom diagram – represents a special case where the comparator op-amps are intended to be fast and “single-ended” (or “just-pull”) outputs. In this configuration, the op-amp can only source current, and an external pull-down resistor is required for sinking current.
+
+This is not the exact three-stage circuit from the PIR sensor’s datasheet; however, both circuits are functionally very similar, with only minor implementation differences.
 
 ![System Block Diagram](../01_Design-Overview-Specifications/Two_Types_of_3-Stage_PIR_Signal_Processing.png)
 
