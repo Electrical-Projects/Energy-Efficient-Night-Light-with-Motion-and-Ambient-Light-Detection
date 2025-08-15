@@ -139,6 +139,12 @@ The 555 output (3.3 V logic) enables the **LED driver** path that resides on the
 
 ---
 
+## PCB Breakdown
+
+![System Block Diagram](../01_Design-Overview-Specifications/PCB_BUILT_BREAKDOWN.png)
+
+---
+
 **Related files:**  
 - [Electrical Design](../../Electrical-Design/) — Schematic, BOM.  
 - [Mechanical Design](../../Mechanical-Design/) — Enclosure, diffuser.
